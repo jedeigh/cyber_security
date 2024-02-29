@@ -1,3 +1,3 @@
-# ops102_lab10
+# READ ME
 Hello World!
 This is my first Github repo
