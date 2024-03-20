@@ -15,7 +15,7 @@
 function lookup(){
     echo " enter a website"
     read website
-    whois $website > site.txt
+    whois $website >> site.txt
     dig $website >> site.txt
     host $website >> site.txt
     nslookup $website >> site.txt
