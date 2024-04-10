@@ -5,7 +5,7 @@
 # https://linuxize.com/post/bash-case-statement/
 echo "How is your day going?"
 read MOOD
-echo "My day is going $MOOD"
+#echo "My day is going $MOOD"
 
 case $MOOD in
 
