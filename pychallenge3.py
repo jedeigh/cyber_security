@@ -18,4 +18,8 @@ print("Total apples are: ",total_apples)
 # print the value stored in total_apples to the console;
 # experiment with your code: create new variables, assign different values to them, and perform 
 #various arithmetic operations on them (e.g., +, -, *, /, //, etc.). Try to print a string and an 
+less_apples = adam - mary - john 
+print("subtracting all the apples will leave you with", less_apples,"apples") 
+apple_pi = adam * mary * john * 3.14 
+print("multipling all apples times pi will give you", apple_pi,"apples") 
 #integer together on one line, e.g., "Total number of apples:" and total_apples.
