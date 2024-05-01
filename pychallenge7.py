@@ -8,6 +8,7 @@ print(f"Let's play a number guess game, you have {counter} tries \n to pick the 
 # Rule 2: Program must run until the correct number is guessed
 guessed = False 
 for wrong_guess in range(1, counter + 1):
+    counter -=1 
     play_num = int(input('Guess my number friend '))
     if play_num > bobs_num:
         print("You're number is too high, try again!")
@@ -18,10 +19,10 @@ for wrong_guess in range(1, counter + 1):
     else:
         play_num == bobs_num 
         guessed = True
-        print(f"You got it, my number was {bobs_num} and it only took you {counter} tries!")
+        print(f"You got it, my number was {bobs_num} and it only took you {3 - counter} tries!")
         break 
 else:
-    print(f"You reached your maximum limit of guesses with {counter}, game over!")
+    print(f"You reached your maximum limit of guesses with {counter}, the correct number was {bobs_num} game over!")
 # Rule 3: When guessed right, print out how many tries to guess the 
 # right number. Example: "Yes! You guessed it in ___ guesses."
 # Rule 4: The program will tell you if your number needs to be HIGHER
