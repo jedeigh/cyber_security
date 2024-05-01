@@ -8,6 +8,7 @@ import time
 counter = 1
 
 for i in range(1,6):
+    time.sleep(2)
     print(f"{counter} mississippi!")
     counter += 1
     
